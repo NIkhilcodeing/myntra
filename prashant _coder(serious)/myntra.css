@@ -1,0 +1,96 @@
+header{
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+*{
+margin:7px;
+padding:0;
+box-sizing:border-box;
+}
+html,body{
+height:100%;
+width:100%;
+}
+
+.flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all ease 1s;
+    overflow: hidden;
+}
+
+.left img {
+    width: 170px;
+    height: 90px;
+    padding: 0 5px 0 12px;
+    transition: 1s;
+}
+
+.left img:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+
+}
+.padding_1{
+    padding: 0 17px 0 6px;
+}
+/* .padding_2{
+    padding: 0 17px 0 6px;
+} */
+.margin_1{
+    margin: 0 0 0 0;
+}
+.margin_2{
+    margin: 0 0 0 0;
+}
+.left ul li{
+    font-size: larger;
+    font-weight: bold;
+    margin: 0 50px 0 0;
+    transition: 1s;
+    
+}
+.right ul li{
+    font-size: larger;
+    font-weight: bold;
+    margin: 0 50px 0 0;
+    transition: 1s;
+    
+}
+
+.left ul li:hover {
+    scale: 1.2;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(205, 190, 190);
+}
+.right ul li:hover {
+    scale: 1.2;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(205, 190, 190);
+}
+.right input{
+    margin: 0px 44px 0px 70px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 14px;
+    width: 480px;
+    height: 56px;
+    padding: 30px;
+    font-size: medium;
+    color: aliceblue;
+    font-family: revert;
+    font-weight: bold;
+}
